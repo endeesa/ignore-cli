@@ -58,6 +58,7 @@ const userOpts = yargs
         describe: "Where the .ignore files should be downloaded to", type: "string", demandOption: false
     })
     .option("local", { alias: "l", describe: "Add from your own local .ignore repository", type: "string", demandOption: false })
+    .option("service", { alias: "s", describe: "Type of project to ignore", choices: ["git", "docker"], type: "string", demandOption: false })
     .example('ignore --service git Python', '# Add a .gitignore file for Python')
     .epilog('Peculia Group @Copyright 2022')
     .argv;
