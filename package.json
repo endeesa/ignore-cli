@@ -1,0 +1,24 @@
+{
+  "name": "ignore-cli",
+  "version": "1.0.0",
+  "description": "A fast command line tool for adding .ignore files to your project",
+  "main": "bin/ignore-cli.js",
+  "bin": {
+    "ign": "bin/ignore-cli.js",
+    "ignore": "bin/ignore-cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node bin/ignore-cli.js"
+  },
+  "keywords": [
+    "gitignore",
+    "dockerignore",
+    "ignore-cli"
+  ],
+  "author": "endeesa (@NdamuleloNemakh)",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^17.3.1"
+  }
+}

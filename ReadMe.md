@@ -1,4 +1,4 @@
-# Ignore - CLI
+# Ignore - CLI (Work in progress)
 
 * A fast command line tool for adding .ignore files to your project
     - For example, .gitignore for [git](https://git-scm.com/) repositories, or .dockerignore for [docker](https://www.docker.com/get-started) projects
